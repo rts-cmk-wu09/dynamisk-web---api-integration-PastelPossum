@@ -1,0 +1,68 @@
+* {
+
+    box-sizing: border-box;
+
+    margin: auto;
+
+    /* background-color: #2a75bb; */
+
+}
+
+body {
+
+    background-color: #2a75bb;
+
+}
+
+.hero {
+
+    height: 250px;
+    
+    display: flex;
+    justify-content: center;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.pokemon-wrapper {
+
+    display: flex;
+
+}
+
+.cards {
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 60px 80px;
+
+    border: 2px black solid;
+
+    background-color: white;
+
+}
+
+h2 {
+
+    font-size: 30px;
+
+    margin-bottom: 50px;
+
+}
+
+.cards img {
+
+    height: 150px;
+
+}
+
+.cards p {
+
+    font-size: 20px;
+
+    margin-top: 50px;
+
+}
