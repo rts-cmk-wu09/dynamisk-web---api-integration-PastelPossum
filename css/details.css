@@ -2,13 +2,25 @@
 
     font-size: 90px;
     text-align: center;
+    text-transform: capitalize;
 
     color: white;
 	-webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #2d4684;
 
     margin-top: -30px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
+
+}
+
+.id {
+
+    color: white;
+    font-size: 30px;
+
+    text-align: center;
+
+    margin-bottom: 50px;
 
 }
 
@@ -82,23 +94,29 @@
 
 }
 
-dl {
-
-    font-size: 20px;
-
-}
-
 dt {
 
     color: #d53323;
     font-weight: bold;
+    font-size: 22px;
+
+    margin-bottom: 7px;
 
 }
 
 dd {
 
     color: #2d4684;
+    font-size: 20px;
 
     margin-bottom: 20px;
+
+}
+
+.uppercase {
+
+    list-style: none;
+
+    text-transform: capitalize;
 
 }
