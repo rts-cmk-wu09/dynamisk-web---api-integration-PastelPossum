@@ -15,7 +15,7 @@ pokemonNames.forEach(name => {
             <h2>${data.name}</h2>
             <img src="${data.sprites.front_default}" alt="">
 
-            <p><a href="#">More</a></p>
+            <p><a href="details.html?name=${data.name}">More</a></p>
 
             </div>
             
