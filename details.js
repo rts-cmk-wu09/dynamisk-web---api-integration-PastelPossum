@@ -44,6 +44,12 @@ fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
                 <dd>${data.height}</dd>
                 <dt>Weight</dt>
                 <dd>${data.weight}</dd>
+                <dt>Abilities:</dt>
+                <dd>${data.abilities.map((ability) => {
+
+                    return '<li class="uppercase abilities">' + ability.ability.name + '</li>'
+
+                }).join(" ")}</dd>
 
             </dl>
 
