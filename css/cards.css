@@ -1,0 +1,104 @@
+
+.hero-wrap {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero {
+
+    height: 250px;
+    
+    display: flex;
+    justify-content: center;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.pokedex {
+
+    font-size: 70px;
+    text-align: center;
+
+    color: #ffffff;
+
+    margin-bottom: 60px;
+
+}
+
+.pokemon-wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 300px;
+
+    gap: 20px;
+
+}
+
+.cards {
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 60px 80px;
+    margin-bottom: 40px;
+
+    border: 6px #2d4684 solid;
+    border-radius: 40px;
+
+    background-color: white;
+
+}
+
+h2 {
+
+    font-size: 35px;
+    color: #ffcb05;
+
+    background-color: #d53323;
+    border-radius: 50px;
+
+    width: 110%;
+
+    margin-bottom: 50px;
+    padding: 5px;
+
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.cards img {
+
+    height: 150px;
+
+}
+
+.cards p {
+
+    font-size: 20px;
+
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.cards p a {
+
+    color: #d53323;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.cards p a:hover {
+
+    color: #bb1310;
+    text-decoration: underline;
+
+}
