@@ -12,11 +12,12 @@ fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
         
         <figure class="hero-wrap">
 
-            <img class="hero" src="/img/Pokemon-logo-497D61B223-seeklogo.com.png" alt="">
+            <a href="index.html"><img class="hero" src="/img/Pokemon-logo-497D61B223-seeklogo.com.png" alt=""></a>
            
-           </figure>
+        </figure>
 
         <h1 class="details-name">${data.name}</h1>
+        <p class="id"># ${data.id}</p>
 
         <div class="sprites-wrap">
             <figure class="sprites">
@@ -47,7 +48,7 @@ fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
                 <dt>Abilities:</dt>
                 <dd>${data.abilities.map((ability) => {
 
-                    return '<li class="uppercase abilities">' + ability.ability.name + '</li>'
+                    return '<li class="uppercase">' + ability.ability.name + '</li>'
 
                 }).join(" ")}</dd>
 
