@@ -1,6 +1,17 @@
 const pokemonWrap = document.querySelector(".pokemon-wrapper")
 
-const pokemonNames = ["sobble", "kecleon", "phantump","banette", "bronzor", "kricketune"]
+const pokemonNames = [
+"sobble", 
+"kecleon", 
+"phantump",
+"banette", 
+"bronzor", 
+"kricketune",
+"impidimp",
+"tatsugiri",
+"rowlet"
+
+]
 
 pokemonNames.forEach(name => {
 
